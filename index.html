@@ -4,30 +4,68 @@
     <meta charset="UTF-8">
     <title>Front End Assessment</title>
     <link rel="stylesheet" href="./styles/app.css">
+    <link href="/node_modules/bulma/css/bulma.css">
 </head>
 <body>
 <!--This div wraps the entire page-->
     <div class="site-wrapper">
         <!--Here is your header with the navigation nested inside -->
-        <header class="site-header" role="banner">
+        <head class="site-header" role="banner">
             <div class="container">
               <!--Insert Logo directive here -->
                 <nav class="site-nav">
                     <ul class="primary-nav">
                         <!-- Navs go here -->
-                    </ul>
-                </nav>
-                <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
-                    <span class="hamburger-box"><span class="hamburger-inner"></span>
-                    </span>
-                </button>
+                        <nav class="navbar ">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="http://bulma.io">
+      <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
 
-            </div>
-        </header>
+
+    <div class="navbar-burger burger" data-target="navMenubd-example">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navMenubd-example" class="navbar-menu">
+    <div class="navbar-start">
+            <a class="navbar-item" href="/2017/08/01/bulma-bootstrap-comparison/">
+              <div class="navbar-content">
+                <p>Home</p>
+              </div>
+            </a>          
+      <a class="navbar-item " href="http://bulma.io/expo/">
+        About
+      </a>
+      <a class="navbar-item " href="http://bulma.io/love/">
+       Blog
+      </a>
+      <a class="navbar-item " href="http://bulma.io/love/">
+        Shop
+       </a>
+       <a class="navbar-item " href="http://bulma.io/love/">
+        Products
+       </a>
+       <a class="navbar-item " href="http://bulma.io/love/">
+        Product Detail
+       </a>
+    </div>              
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+        </head>
         <!--This is the main wrapper -->
         <main class="site-main" role="main">
-
+testing
         <!--Views go here -->
+<div ui-view></div>
+    
 
         </main>
         </div>

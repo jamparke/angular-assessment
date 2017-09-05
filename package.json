@@ -1,0 +1,23 @@
+{
+  "name": "angular-assessment",
+  "version": "1.0.0",
+  "description": "This assessment is intended to assess your skills and knowledge of Angular concepts.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamparke/angular-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamparke/angular-assessment/issues"
+  },
+  "homepage": "https://github.com/jamparke/angular-assessment#readme",
+  "dependencies": {
+    "bulma": "^0.5.1",
+    "ui-router": "^1.0.0-alpha.3"
+  }
+}
