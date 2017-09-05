@@ -1,35 +1,30 @@
-let app = angular.module('assessment', ['ui.router'])
+let app = angular.module('app', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('home', {
                 url: '/',
                 templateUrl: '../views/home.html',
-                controller: 'homeCtrl',
             })
             .state('about', {
-                url: '/',
+                url: '/about',
                 templateUrl: '../views/about.html',
-                // controller: 'homeCtrl',
             })
             .state('blog', {
-                url: '/',
-                templateUrl: '../views/blog.html',
-                // controller: 'homeCtrl',
+                url: '/blog',
+                templateUrl: '../views/blog.html',                // controller: 'homeCtrl',
             })
             .state('products-details', {
-                url: '/',
+                url: '/product-details',
                 templateUrl: '../views/product-details.html',
-                // controller: 'homeCtrl',
             })
-            .state('product-tmpl', {
-                url: '/',
-                templateUrl: '../views/product-tmpl.html',
-                // controller: 'homeCtrl',
-            })
+            // .state('product-tmpl', {
+            //     url: '/',
+            //     templateUrl: '../views/product-tmpl.html',                // controller: 'homeCtrl',
+            // })
             .state('shop', {
-                url: '/',
+                url: '/shop',
                 templateUrl: '../views/shop.html',
-                // controller: 'homeCtrl',
+                controller: 'shopCtrl'
             })
         $urlRouterProvider.otherwise('/')
     });
