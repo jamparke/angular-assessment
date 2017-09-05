@@ -12,5 +12,6 @@ app.service('shopSrvc', function ($http) {
                     return res.data;
             });
             console.log(results);
+      
         }
     })
